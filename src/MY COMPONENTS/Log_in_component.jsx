@@ -20,12 +20,7 @@ export default function Log_in_component(){
       var errorMessage = error.message;
     });
   }
-  function testonly(){
-    var btn = document.createElement("BUTTON");   // Create a <button> element
-    btn.innerHTML = "CLICK ME";                   // Insert text
-    document.body.appendChild(btn);               // Append <button> to <body>
-  }
-
+  
   return (
     <>
     
@@ -50,7 +45,7 @@ export default function Log_in_component(){
       <div className="inputfield">
           <button className="sbbtn" onClick={login} >LOGIN</button>
           
-          <button onClick={testonly} className="sbbtn"></button>
+         
         </div>
 
     </div>
